@@ -10,8 +10,8 @@ def create_txt(nama, nim, resolusi):
     except FileNotFoundError:
         print("Error: File Me.txt tidak ada/tidak ditemukan")
 
-nama = "Alwi Arfan Solin"
-nim = "122140197"
-resolusi = "have a good grade for all this course"
+nama = str(input('Masukkan nama : '))
+nim = str(input('Masukkan NIM : '))
+resolusi = str(input('Masukkan Resolusi : '))
 
 create_txt(nama, nim, resolusi)
